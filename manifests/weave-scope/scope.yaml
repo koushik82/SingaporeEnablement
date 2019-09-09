@@ -281,7 +281,7 @@ metadata:
   namespace: weave
 spec:
   rules:
-  - host: scope.weave.jimmysong.io
+  - host: scope.weave.lioncity.io
     http:
       paths:
       - path: /
