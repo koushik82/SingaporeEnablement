@@ -98,7 +98,7 @@ $ ./octant_0.X.Y_Linux-64bit/octant version
 Prometheus Operator creates/configures/manages Prometheus clusters atop Kubernetes. 
 
 ```
-% kubectl apply -f prometheus-operator
+% kubectl apply -f prometheus-operator/
 ```
 
 The Prometheus Operator for Kubernetes provides easy monitoring definitions for Kubernetes services and deployment and management of Prometheus instances.
@@ -116,7 +116,7 @@ Target Services via Labels: Automatically generate monitoring target configurati
 Monitoring, visualisation & management for Docker & Kubernetes
 
 ```
-kubectl apply -f weave-scope
+kubectl apply -f weave-scope/
 ```
 
 Weave Scope automatically generates a map of your application, enabling you to intuitively understand, monitor, and control your containerized, microservices-based application.
