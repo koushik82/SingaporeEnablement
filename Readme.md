@@ -68,6 +68,8 @@ kind create cluster --config config --name lioncity --image kindest/node:v1.14.0
 
 ## Cluster Add On
 
+### Octant
+
 A web-based, highly extensible platform for developers to better understand the complexity of Kubernetes clusters. More Documentation available [here.][OT]  
 
 ```
@@ -90,6 +92,34 @@ octant_0.X.Y_Linux-64bit/octant
 ```
 $ ./octant_0.X.Y_Linux-64bit/octant version
 ```
+
+### Prometheus Operator
+
+Prometheus Operator creates/configures/manages Prometheus clusters atop Kubernetes. 
+
+```
+% kubectl apply -f prometheus-operator
+```
+
+The Prometheus Operator for Kubernetes provides easy monitoring definitions for Kubernetes services and deployment and management of Prometheus instances.
+
+Once installed, the Prometheus Operator provides the following features:
+
+Create/Destroy: Easily launch a Prometheus instance for your Kubernetes namespace, a specific application or team easily using the Operator.
+
+Simple Configuration: Configure the fundamentals of Prometheus like versions, persistence, retention policies, and replicas from a native Kubernetes resource.
+
+Target Services via Labels: Automatically generate monitoring target configurations based on familiar Kubernetes label queries; no need to learn a Prometheus specific configuration language.
+
+### WeaveScope
+
+Monitoring, visualisation & management for Docker & Kubernetes
+
+```
+kubectl apply -f weave-scope
+```
+
+Weave Scope automatically generates a map of your application, enabling you to intuitively understand, monitor, and control your containerized, microservices-based application.
 
 ## Useful commands: 
 
