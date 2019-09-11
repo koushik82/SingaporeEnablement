@@ -7,14 +7,15 @@ All required materials for this training is in GitHub. We need to clone the repo
 
 We begin by installing git and the installation guide is available [here.][GH]
 
-Please check if Git is installed correctly by inputting 
+Please check if Git is installed correctly by providing the below inputs 
 
 ```
 % git --version
 git version 2.22.0
 ```
 
-Please proceed to clone this Github repo
+Please proceed to clone this Github repo:
+
 ```
 % git clone https://github.com/koushik82/SingaporeEnablement.git
 ```
@@ -84,12 +85,13 @@ octant_0.X.Y_Linux-64bit/README.md
 octant_0.X.Y_Linux-64bit/octant
 ```
 
-####Verify it runs:
+#### Verify it runs:
+
 ```
 $ ./octant_0.X.Y_Linux-64bit/octant version
 ```
 
-##Useful commands: 
+## Useful commands: 
 
 Some useful commands during the lab:
 
