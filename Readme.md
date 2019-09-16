@@ -64,7 +64,7 @@ For Linux and Windows users I would recommend taking a look at this [document.][
 
 ## Cluster Creation
 
-kind create cluster --config config --name lioncity --image kindest/node:v1.14.0
+kind create cluster --config config3 --name lioncity 
 
 ## Cluster Add On
 
